@@ -9,8 +9,6 @@ body, html{
     background: url('https://media.architecturaldigest.in/wp-content/uploads/2018/04/Starbucks-at-Park-Mansions-31-866x487.jpg') center center no-repeat;
     background-size: cover;
     height: 620px;
-    backdrop-filter: sepia(.7);
-    filter: sepia(.7);
 }
 #nav{
     display: flex;
@@ -60,12 +58,32 @@ body, html{
 ===============*/
 .videoContainer{
     text-align: center;
+    margin-top: 150px;
 }
 .videoBTN{
     border-radius: 50%;
-    background-color: rgba(75, 75, 75, 0.747);
-    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(223, 223, 223);;
+    width: 70px;
+    height: 70px;
+    margin-left: 50%;
 }
 .triangle{
-    
+    position: relative;
+    top: 27px;
+    left: 27px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #424242;
+}
+#headerPopup{
+    width:75%;
+    margin:0 auto;
+  }
+  
+#headerPopup iframe{
+    width:100%;
+    margin:0 auto;
 }

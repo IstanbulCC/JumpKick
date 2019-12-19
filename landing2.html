@@ -24,12 +24,29 @@
                 <li><a href="" class="buyBtn">Buy Jumpstart</a></li>
             </ul>
         </nav>
-        <div class="videoContainer">
-            <a href="" class="videoBTN">
-                <div class="triangle"></div>
-            </a>
-        </div>
+        <a href="#headerPopup" id="headerVideoLink" target="_blank">
+            <div class="videoContainer">
+                    <div class="videoBTN">
+                        <div class="triangle"></div>
+                    </div>
+            </div>
+        </a>
+        <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/qN3OueBm9F4?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
     </div>
 
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+        $('#headerVideoLink').magnificPopup({
+            type:'inline',
+            midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+        });         
+        });
+    </script>
 </body>
 </html>
