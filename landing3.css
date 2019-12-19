@@ -43,3 +43,21 @@ color: gray;
     font-size: 18px;
     font-family: 'Ubuntu', sans-serif;
 }  
+#checkbx {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    height: 23px;
+    width: 23px;
+    margin-right: 485px;
+}
+#checkboxtxt {
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    margin-right: 260px;
+    position: relative;
+    bottom: 33px;
+}
+#2ndTitle {
+    background-color: rgb(13, 37, 63);
+}
