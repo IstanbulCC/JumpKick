@@ -1,0 +1,45 @@
+#Main_Text {
+font-size: 21px;
+font-family: 'Ubuntu', sans-serif;
+padding: 0 150px 0 0;
+font-weight: lighter;
+color: gray;
+}
+#Maintitletxt {
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 150px 200px 0 0;
+}
+#mainimg {
+    position: relative;
+    bottom: 300px;
+    width: 550px;
+    padding: 0 0 0 100px;
+}
+#input1 {
+    padding-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+#input2 {
+    padding-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+#inputs12 {
+    text-align: right;
+    padding-right: 100px;
+}
+#Button {
+    padding: 20px 183px 20px 183px;
+    border-radius: 100px;
+    background-color: rgb(15, 143, 100);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}  
