@@ -58,6 +58,9 @@ color: gray;
     position: relative;
     bottom: 33px;
 }
-#2ndTitle {
-    background-color: rgb(13, 37, 63);
+#secondTitle{
+    background-color: rgb(17, 44, 71);
+    width: 100%;
+    padding: 200px 0;
+    margin: 0;
 }
