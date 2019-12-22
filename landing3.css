@@ -59,8 +59,34 @@ color: gray;
     bottom: 33px;
 }
 #secondTitle{
-    background-color: rgb(17, 44, 71);
+    background-color: rgb(14, 36, 58);
     width: 100%;
     padding: 200px 0;
     margin: 0;
+}
+#Title {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 53px;
+}
+#ipsum {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+/* TEXT BOXES START HERE*/
+#Textboxes {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 15px;
+    padding: 0 10%;
+}
+.boxes {
+background-color: rgb(255, 255, 255);
+padding: 5px 10px;
+border-radius: 10px;
+font-family: 'Ubuntu', sans-serif;
+}
+.Box1{
+    font-size: 23px;
 }
