@@ -7,4 +7,5 @@
 #buttons {
     font-family: 'Kanit', sans-serif;
     color: rgb(90, 96, 97);
+    list-style: none;
 }

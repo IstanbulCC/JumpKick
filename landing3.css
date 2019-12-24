@@ -6,13 +6,14 @@ font-weight: lighter;
 color: gray;
 }
 #Maintitletxt {
-    font-size: 60px;
+    font-size: 70px;
     font-family: 'Ubuntu', sans-serif;
     padding: 150px 200px 0 0;
 }
 #mainimg {
     position: relative;
-    bottom: 300px;
+    bottom: 500px;
+    left: 125px;
     width: 550px;
     padding: 0 0 0 100px;
 }
@@ -26,7 +27,7 @@ color: gray;
 #input2 {
     padding-right: 300px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; 
     font-family: 'Ubuntu', sans-serif;
     font-size: 15px;
 }
@@ -71,7 +72,7 @@ color: gray;
 }
 #ipsum {
     color: white;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
     font-size: 20px;
 }
 /* TEXT BOXES START HERE*/
@@ -89,4 +90,44 @@ font-family: 'Ubuntu', sans-serif;
 }
 .Box1{
     font-size: 23px;
+}
+#thirdsection {
+    padding-top: 175px;
+    padding-left: 265px;
+    padding-bottom: 500px;
+}
+#newandannouncetxt{
+    list-style: none;
+}
+#announcetxt {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 150;
+    background-color: rgba(0, 128, 0, 0.151);
+    margin-right: 990px;
+    padding: 10px 10px
+    
+}
+#thirdsectiontitle {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+}
+#thirdsectiontext {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(71, 73, 71);
+}
+#ExploreButton {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(19, 145, 19);
+    text-decoration-line: none;
+}
+#thrdsctimgsrc {
+    width: 500px;
+    margin-top: -350px;
+    padding-right: 250px;
 }
