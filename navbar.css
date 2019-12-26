@@ -1,0 +1,11 @@
+#mainlogo {
+    font-family: 'Kanit', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    padding: 5px 0 0 200px;
+}
+#buttons {
+    font-family: 'Kanit', sans-serif;
+    color: rgb(90, 96, 97);
+    list-style: none;
+}
