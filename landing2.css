@@ -6,28 +6,34 @@ body, html{
     margin: 0;
 }
 .mainBG{
-    background: url('https://media.architecturaldigest.in/wp-content/uploads/2018/04/Starbucks-at-Park-Mansions-31-866x487.jpg') center center no-repeat;
+    background: url('img/StarbucksBG-SuncreenFilter.jpg') center center no-repeat;
     background-size: cover;
-    height: 620px;
+    height: 770px;
 }
 #nav{
     display: flex;
-    padding: 20px 8%;
+    padding: 12px 6%;
     justify-content: space-between;
     background-color: transparent;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1100;
 }
 #logo{
-    color: white !important;
+    color: white;
     text-decoration: none;
     transition: ease-in-out .4s;
     text-decoration: none;
     font-size: 27px !important;
+    font-weight: 600;
 }
 #nav .navItem{
-    color: rgb(129, 129, 129);
+    color: #9c9c9c;
     text-decoration: none;
     transition: ease-in-out .4s;
     text-decoration: none;
+    font-weight: 600;
     font-size: 19px;
 }
 #nav .navItem:hover{
@@ -41,7 +47,7 @@ body, html{
     padding: 0 14px;
 }
 .buyBtn{
-    padding: 15px 25px;
+    padding: 12px 25px;
     border-radius: 100px;
     text-decoration:none;
     background-color: #009b72;
@@ -56,9 +62,12 @@ body, html{
 }
 /* Main Section 
 ===============*/
+
+/* Video SECTION
+=================*/
 .videoContainer{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .videoBTN{
     border-radius: 50%;
@@ -137,3 +146,320 @@ body, html{
   .test:hover ~ .test2 {
     display: none;
   }
+
+  /* INTRO SECTION
+  ================*/
+
+.introSection{
+    text-align: center;
+}
+.header1{
+    font-size: 4.6rem;
+    color: white;
+}
+.header2{
+    font-size: 3.6rem;
+    color: white;
+}
+.header3{
+    font-size: 2.6rem;
+    color: white;
+}
+.header4{
+    font-size: 1.6rem;
+    color: white;
+}
+.p{
+    color: #fff;
+    font-size: 20px;
+}
+.Demobtn{
+    padding: 26px 35px;
+    border-radius: 100px;
+    text-decoration:none;
+    background-color: #009b72;
+    border: 3px solid #009b72;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.Demobtn:hover{
+    background-color: #008864;
+    border-color: #007254;
+    cursor: pointer;
+}
+.Purchasebtn{
+    margin-left: 15px;
+    padding: 26px 35px;
+    border-radius: 100px;
+    text-decoration:none;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.295);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.Purchasebtn:hover{
+    background-color: rgba(255, 255, 255, 0.295);
+}
+
+/* Section 1 
+=============*/
+
+#section1{
+    padding: 100px 15%;
+    text-align: center;
+}
+.black{
+    color: #2c3038 !important;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 40px;
+}
+.section1ItemHeader{
+    font-size: 1.2rem;
+    color: #2c3038;
+}
+
+/* Section 2
+=============*/
+
+#section2{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+}
+#section2 > div:nth-child(1){
+    background: url('img/starbucksTR.jpg') center center no-repeat;
+    background-size: cover;
+}
+#section2 > div:nth-child(2){
+    background-color: #009b72;
+    padding: 100px 60px;
+}
+
+/* Section 3 
+=============*/
+
+#section3{
+    padding: 100px 10%;
+    text-align: center;
+}
+.section3Grid{
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+    grid-gap: 40px;
+}
+.section3ItemHeader{
+    font-size: 1.4rem;
+    color: #2c3038;
+}
+.section3P{
+    font-size: 1rem;
+    text-align: left;
+    color: #2c3038;
+}
+.section3Img{
+    height: 150px;
+    max-width: 230px;
+    border-radius: 6px;
+    margin: 0 10px 0 0;
+}
+.greenLink{
+    text-decoration: none;
+    color: #009b72;
+    font-weight: 600;
+}
+
+/* Section 4 
+=============*/
+
+#section4{
+    background: #f7f9fc;
+    padding: 100px 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    grid-gap: 20px;
+}
+#section4 div:nth-child(1){
+    text-align: center;
+}
+.notification{
+    background-color: #eaedf2;
+    padding: 6px;
+    width: 400px;
+    border-radius: 100px;
+}
+.notificationHeader{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.section4Card{
+    max-width: 340px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(48, 48, 48, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(48, 48, 48, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(48, 48, 48, 0.75);
+}
+.section4Card div{
+    padding: 20px 30px;
+}
+.sec4Img{
+    max-width: 340px;
+    transition: ease-in-out .3s;
+}
+img.sec4Img:hover{
+    filter: hue-rotate(100deg) opacity(0.9) brightness(60%);
+}
+.financeLink{
+    color: #009b72; 
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 40%;
+    background-color: rgba(23,162,184,.1);
+    padding: 5px 9px;
+    border-radius: 100px;
+}
+.financeLink:hover{
+    color: white;
+    background-color: teal;
+}
+#section4 div:nth-child(3){
+    margin-top: 100px;
+    max-width: 450px;
+}
+#section4 div:nth-child(3) img{
+    max-width: inherit;
+}
+#section4 div:nth-child(4){
+    margin-top: 100px;
+    text-align: center;
+}
+.secLink4{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: 600;
+}
+
+/* Section 5
+=============*/
+
+#section5{
+    padding: 150px 15%;
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-gap: 10px;
+}
+#section5 > div{
+    text-align: center;
+}
+#section5 > div > img{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+}
+
+/* Section 6
+=============*/
+
+#section6{
+    padding: 150px 15% 0 15%;
+    text-align: center;
+    background-color: #192d35;
+}
+#section6 > form{
+    background-color: white;
+    padding: 40px 40px;
+    text-align: left;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-left: 24%;
+}
+.input{
+    padding: 13px;
+    border-radius: 3px;
+    border: 1px solid rgb(209, 209, 209);
+    font-size: 14px;
+    width: 90%;
+    color: gray;
+}
+label{
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: rgb(97, 97, 97);
+    text-transform: capitalize;
+}
+
+/* Footer
+==========*/
+
+#footer{
+    background-color: #192d35;
+    padding: 150px 10% 10px 10%;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2.5fr;
+    text-align: left;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.397);
+}
+.footerLink{
+    text-decoration: none;
+    color: rgb(209, 209, 209);
+    font-weight: 600;
+    transition: ease-in-out .2s;
+}
+.footerLink:hover{
+    color: white;
+}
+#footerArticles > div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#footerArticles h5{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+}
+#footerArticles h4{
+    color: rgba(255,255,255,.7);
+    font-weight: 500;
+}
+#footerArticles > div > div > img{
+    max-width: 150px;
+    border-radius: 6px;
+    filter: grayscale(.8);
+}
+#footerNewsletter > div{
+    background-color: #25383f;
+    padding: 30px 20px;
+    border-radius: 6px;
+}
+#footerNewsletter > div > h4{
+    color: rgba(255, 255, 255, 0.795) !important;
+    font-size: 14px;
+}
+#footerNewsletter > div > h5{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+}
+#footerTermsCont{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    color: rgba(255, 255, 255, 0.5);
+}
+.scoialBtn{
+    color: rgb(255,255,255);
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: ease-in-out .3s;
+}
+.scoialBtn:hover{
+    color: rgba(255, 255, 255, 0.699);
+}
