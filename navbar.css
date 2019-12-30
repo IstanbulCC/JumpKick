@@ -1,11 +1,50 @@
-#mainlogo {
-    font-family: 'Kanit', sans-serif;
-    font-size: 27px;
-    font-weight: bold;
-    padding: 5px 0 0 200px;
+#nav{
+    display: flex;
+    padding: 12px 6%;
+    justify-content: space-between;
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1100;
 }
-#buttons {
-    font-family: 'Kanit', sans-serif;
-    color: rgb(90, 96, 97);
+#logo{
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out .4s;
+    text-decoration: none;
+    font-size: 27px !important;
+    font-weight: 600;
+}
+#nav .navItem{
+    color: #9c9c9c;
+    text-decoration: none;
+    transition: ease-in-out .4s;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 19px;
+}
+#nav .navItem:hover{
+    color:rgb(194, 194, 194);
+}
+#nav ul{
+    display: flex;
     list-style: none;
+}
+#nav ul li{
+    padding: 0 14px;
+}
+.buyBtn{
+    padding: 12px 25px;
+    border-radius: 100px;
+    text-decoration:none;
+    background-color: #009b72;
+    border: 3px solid #009b72;
+    color: white;
+    font-size: 1rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.buyBtn:hover{
+    background-color: #008864;
+    border-color: #007254;
 }
