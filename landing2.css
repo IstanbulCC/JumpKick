@@ -115,7 +115,6 @@ body, html{
     z-index: 1002;
     overflow: visible;
   }
-  
   #boxclose {
     float: right;
     cursor: pointer;
